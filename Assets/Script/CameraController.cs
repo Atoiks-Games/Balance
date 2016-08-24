@@ -19,7 +19,8 @@ public class CameraController : MonoBehaviour
         if (Input.GetAxis("Quit") > 0)
         {
             foreach (var item in resetObjects)
-                item.ApplyReset();
+                if (item != null)
+                    item.ApplyReset();
         }
     }
 

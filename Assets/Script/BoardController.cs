@@ -4,7 +4,7 @@ using System.Collections;
 public class BoardController : MonoBehaviour
 {
 
-    public float speed;
+    public float speed = 0.2f;
 
     void Start()
     {
