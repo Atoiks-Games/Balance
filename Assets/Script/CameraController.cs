@@ -3,21 +3,32 @@ using System.Collections;
 
 public class CameraController : MonoBehaviour
 {
-    public GameObject binding_obj;
+    public GameObject bindingObject;
     public Vector3 offset;
+    public RotLocReset[] resetObjects;
 
-    // Use this for initialization
     void Start()
     {
 
     }
 
-    // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(KeyCode.Escape))
+        if (Input.GetAxis("Quit") < 0)
             Application.Quit();
-        this.transform.position = binding_obj.transform.position + offset;
-        this.transform.LookAt(binding_obj.transform);
+        if (Input.GetAxis("Quit") > 0)
+        {
+            foreach (var item in resetObjects)
+                item.ApplyReset();
+        }
+    }
+
+    void FixedUpdate()
+    {
+        if (bindingObject != null)
+        {
+            this.transform.position = bindingObject.transform.position + offset;
+            this.transform.LookAt(bindingObject.transform);
+        }
     }
 }

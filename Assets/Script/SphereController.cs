@@ -5,9 +5,8 @@ public class SphereController : MonoBehaviour
 {
 
     public float speed;
-    public Rigidbody rbody;
+    private Rigidbody rbody;
 
-    // Use this for initialization
     void Start()
     {
         rbody = GetComponent<Rigidbody>();
@@ -15,25 +14,8 @@ public class SphereController : MonoBehaviour
 
     void FixedUpdate()
     {
-        float moveHoriz = 0;
-        float moveVert = 0;
-
-        if (Input.GetKey(KeyCode.UpArrow))
-        {
-            moveVert = 1;
-        }
-        if (Input.GetKey(KeyCode.DownArrow))
-        {
-            moveVert = -1;
-        }
-        if (Input.GetKey(KeyCode.LeftArrow))
-        {
-            moveHoriz = -1;
-        }
-        if (Input.GetKey(KeyCode.RightArrow))
-        {
-            moveHoriz = 1;
-        }
+        float moveHoriz = Input.GetAxis("Sphere Horizontal");
+        float moveVert = Input.GetAxis("Sphere Vertical");
 
         Vector3 vec3 = new Vector3(moveHoriz, 0, moveVert);
 

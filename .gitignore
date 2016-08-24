@@ -29,3 +29,7 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+
+# Blender files
+*.blend1
+*.blend1.meta

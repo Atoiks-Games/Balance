@@ -6,30 +6,16 @@ public class BoardController : MonoBehaviour
 
     public float speed;
 
-    // Use this for initialization
     void Start()
     {
 
     }
 
-    // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
-        if (Input.GetKey(KeyCode.W))
-        {
-            this.transform.Rotate(this.transform.right, speed);
-        }
-        if (Input.GetKey(KeyCode.S))
-        {
-            this.transform.Rotate(this.transform.right, -speed);
-        }
-        if (Input.GetKey(KeyCode.A))
-        {
-            this.transform.Rotate(this.transform.forward, speed);
-        }
-        if (Input.GetKey(KeyCode.D))
-        {
-            this.transform.Rotate(this.transform.forward, -speed);
-        }
+        float moveVert = Input.GetAxis("Platform Vertical");
+        Vector3 vec3 = new Vector3(0, 0, moveVert);
+
+        this.transform.Rotate(vec3);
     }
 }
