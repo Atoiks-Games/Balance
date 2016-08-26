@@ -33,3 +33,7 @@ sysinfo.txt
 # Blender files
 *.blend1
 *.blend1.meta
+
+# Other stuff
+\#*
+*~
