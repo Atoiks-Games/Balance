@@ -227,7 +227,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e2ba4cdcce7c5d547930f969aebfedbf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextScene: End
+  nextScene: Levels/Level4
 --- !u!1 &442743435 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100010, guid: 087fcdc492a233f4abd992cf4f7b9c73, type: 3}
@@ -410,7 +410,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: -1.7520001, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
 --- !u!1001 &1620057803
 Prefab:
   m_ObjectHideFlags: 0
@@ -448,7 +448,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400010, guid: 087fcdc492a233f4abd992cf4f7b9c73, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400010, guid: 087fcdc492a233f4abd992cf4f7b9c73, type: 3}
       propertyPath: m_LocalScale.x
