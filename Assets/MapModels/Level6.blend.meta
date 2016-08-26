@@ -1,57 +1,48 @@
 fileFormatVersion: 2
-guid: 777ec3173f4f2be44abe0cac78710c4a
-timeCreated: 1472218107
+guid: e3b613722bcdc9648a4f0d41b11c9926
+timeCreated: 1472218554
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
-    100000: Cone
-    100002: Cone_001
-    100004: Cone_002
-    100006: Cone_003
-    100008: Cube
-    100010: Grid
-    100012: Grid_001
-    100014: Plane
-    100016: Torus
-    100018: //RootNode
-    400000: Cone
-    400002: Cone_001
-    400004: Cone_002
-    400006: Cone_003
-    400008: Cube
-    400010: Grid
-    400012: Grid_001
-    400014: Plane
-    400016: Torus
-    400018: //RootNode
-    2300000: Cone
-    2300002: Cone_001
-    2300004: Cone_002
-    2300006: Cone_003
-    2300008: Cube
-    2300010: Grid
-    2300012: Grid_001
-    2300014: Plane
-    2300016: Torus
-    3300000: Cone
-    3300002: Cone_001
-    3300004: Cone_002
-    3300006: Cone_003
-    3300008: Cube
-    3300010: Grid
-    3300012: Grid_001
-    3300014: Plane
-    3300016: Torus
+    100000: Cube
+    100002: Cube_001
+    100004: Cube_002
+    100006: Cube_003
+    100008: Plane
+    100010: Plane_001
+    100012: //RootNode
+    400000: Cube
+    400002: Cube_001
+    400004: Cube_002
+    400006: Cube_003
+    400008: Plane
+    400010: Plane_001
+    400012: //RootNode
+    2300000: Cube
+    2300002: Cube_001
+    2300004: Cube_002
+    2300006: Cube_003
+    2300008: Plane
+    2300010: Plane_001
+    3300000: Cube
+    3300002: Cube_001
+    3300004: Cube_002
+    3300006: Cube_003
+    3300008: Plane
+    3300010: Plane_001
     4300000: Plane
-    4300002: Cone_003
-    4300004: Cone_002
-    4300006: Cone_001
-    4300008: Cone
-    4300010: Torus
-    4300012: Grid_001
-    4300014: Grid
-    4300016: Cube
+    4300002: Cube_001
+    4300004: Cube
+    4300006: Cube_002
+    4300008: Cube_003
+    4300010: Plane_001
+    6400000: Cube
+    6400002: Cube_001
+    6400004: Cube_002
+    6400006: Cube_003
+    6400008: Plane
+    6400010: Plane_001
     7400000: Default Take
     9500000: //RootNode
   materials:
@@ -80,7 +71,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importBlendShapes: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
@@ -112,7 +103,7 @@ ModelImporter:
     rootMotionBoneName: 
     hasTranslationDoF: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 0
   humanoidOversampling: 1
   additionalBone: 0
   userData: 

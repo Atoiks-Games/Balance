@@ -37,7 +37,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44692534, g: 0.49678725, b: 0.5750856, a: 1}
+  m_IndirectSpecularColor: {r: 0.44692534, g: 0.49678725, b: 0.57508564, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -291,54 +291,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 442743435}
   m_Mesh: {fileID: 0}
---- !u!1 &745332781 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 100000, guid: 087fcdc492a233f4abd992cf4f7b9c73, type: 3}
-  m_PrefabInternal: {fileID: 1620057803}
---- !u!64 &745332785
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 745332781}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Convex: 0
-  m_Mesh: {fileID: 4300000, guid: 087fcdc492a233f4abd992cf4f7b9c73, type: 3}
---- !u!1 &1490399786 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 100008, guid: 087fcdc492a233f4abd992cf4f7b9c73, type: 3}
-  m_PrefabInternal: {fileID: 1620057803}
---- !u!64 &1490399790
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1490399786}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Convex: 0
-  m_Mesh: {fileID: 4300002, guid: 087fcdc492a233f4abd992cf4f7b9c73, type: 3}
---- !u!1 &1507679710 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 100002, guid: 087fcdc492a233f4abd992cf4f7b9c73, type: 3}
-  m_PrefabInternal: {fileID: 1620057803}
---- !u!64 &1507679714
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1507679710}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Convex: 0
-  m_Mesh: {fileID: 4300004, guid: 087fcdc492a233f4abd992cf4f7b9c73, type: 3}
 --- !u!1 &1507890810
 GameObject:
   m_ObjectHideFlags: 0
@@ -459,22 +411,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
---- !u!1 &1584206714 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 100004, guid: 087fcdc492a233f4abd992cf4f7b9c73, type: 3}
-  m_PrefabInternal: {fileID: 1620057803}
---- !u!64 &1584206718
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1584206714}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Convex: 0
-  m_Mesh: {fileID: 4300006, guid: 087fcdc492a233f4abd992cf4f7b9c73, type: 3}
 --- !u!1001 &1620057803
 Prefab:
   m_ObjectHideFlags: 0
@@ -567,7 +503,7 @@ MonoBehaviour:
   bindingObject: {fileID: 1507890810}
   offset: {x: 0, y: 5, z: -5}
   resetObjects:
-  - {fileID: 0}
+  - {fileID: 442743437}
   - {fileID: 1507890811}
 --- !u!81 &1631729524
 AudioListener:
@@ -779,19 +715,3 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1831201006}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &1995634742 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 100006, guid: 087fcdc492a233f4abd992cf4f7b9c73, type: 3}
-  m_PrefabInternal: {fileID: 1620057803}
---- !u!64 &1995634746
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1995634742}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Convex: 0
-  m_Mesh: {fileID: 4300008, guid: 087fcdc492a233f4abd992cf4f7b9c73, type: 3}
