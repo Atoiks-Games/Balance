@@ -37,7 +37,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44692534, g: 0.49678725, b: 0.5750856, a: 1}
+  m_IndirectSpecularColor: {r: 0.44692534, g: 0.49678725, b: 0.57508564, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -442,11 +442,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29c9319322f7a8e409b9861a8712fe6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bindingObject: {fileID: 836221063}
+  sphere: {fileID: 836221063}
+  board: {fileID: 1830262849}
   offset: {x: 0, y: 5, z: -5}
   resetObjects:
   - {fileID: 1830262851}
   - {fileID: 836221064}
+  restartHeight: 12
 --- !u!81 &1439522307
 AudioListener:
   m_ObjectHideFlags: 0

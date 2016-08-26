@@ -500,11 +500,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29c9319322f7a8e409b9861a8712fe6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bindingObject: {fileID: 1507890810}
+  sphere: {fileID: 1507890810}
+  board: {fileID: 442743435}
   offset: {x: 0, y: 5, z: -5}
   resetObjects:
   - {fileID: 442743437}
   - {fileID: 1507890811}
+  restartHeight: 65
 --- !u!81 &1631729524
 AudioListener:
   m_ObjectHideFlags: 0

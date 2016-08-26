@@ -347,11 +347,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29c9319322f7a8e409b9861a8712fe6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bindingObject: {fileID: 1757747602}
+  sphere: {fileID: 1757747602}
+  board: {fileID: 1401060967}
   offset: {x: 0, y: 5, z: -5}
   resetObjects:
   - {fileID: 1401060970}
   - {fileID: 1757747609}
+  restartHeight: 10
 --- !u!1 &1401060967
 GameObject:
   m_ObjectHideFlags: 0
