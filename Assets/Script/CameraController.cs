@@ -8,6 +8,7 @@ public class CameraController : MonoBehaviour
     public Vector3 offset;
     public RotLocReset[] resetObjects;
     public float restartHeight = 10; // Note: Only values greater than 0 are being tested
+    private bool hasBeenDone = false;
 
     void Start()
     {
@@ -35,6 +36,8 @@ public class CameraController : MonoBehaviour
         foreach (var item in resetObjects)
             if (item != null)
                 item.ApplyReset();
+                transform.Translate(Vector3.forward);
+                transform.Translate(Vector3.back);
     }
 
     void FixedUpdate()
@@ -43,6 +46,15 @@ public class CameraController : MonoBehaviour
         {
             this.transform.position = sphere.transform.position + offset;
             this.transform.LookAt(sphere.transform);
+            BeginningReset();
+        }
+    }
+    void BeginningReset()
+    {
+        if (hasBeenDone == false)
+        {
+            ResetPos();
+            hasBeenDone = true;
         }
     }
 }
