@@ -4,6 +4,7 @@ using System.Collections;
 
 public class AdvanceSceneScript : MonoBehaviour {
 
+    public string levelName;
 	// Use this for initialization
 	void Start () {
 	
@@ -13,7 +14,7 @@ public class AdvanceSceneScript : MonoBehaviour {
 	void Update () {
         if (Input.GetMouseButtonDown(1))
         {
-            SceneManager.LoadScene("LevelHub");
+            SceneManager.LoadScene(levelName);
         }
 
 	}
