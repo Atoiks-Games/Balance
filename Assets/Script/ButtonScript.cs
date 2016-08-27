@@ -1,19 +1,22 @@
 ﻿using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 using System.Collections;
 
-public class ButtonScript : MonoBehaviour {
+public class ButtonScript : MonoBehaviour
+{
+    public Button startText;
 
-    public string nextScene;
-
-    void Start() {
-
+    void Start()
+    {
+        startText = startText.GetComponent<Button>();
     }
 
-
-    void Update() {
-     
+    public void StartLevel()
+    {
+        SceneManager.LoadScene("LevelHub");
     }
+
 }
 
 
