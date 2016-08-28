@@ -12,13 +12,16 @@ public class PerformLoadScene : StateMachineBehaviour
         foreach (var gameObj in currentScene.GetRootGameObjects())
         {
             // Load in children since Goal must be wrapped inside a Board
-            LoadScene ld = gameObj.GetComponentInChildren<LoadScene>();
-            if (ld != null)
+            foreach (var ld in gameObj.GetComponentsInChildren<LoadScene>())
             {
-                if (ld.onCollisionEnter == true) {
-                    ld.Apply();
+                if (ld != null)
+                {
+                    if (ld.GetSceneNumber() == animator.GetInteger("NextScene"))
+                    {
+                        ld.Apply();
+                        return;
+                    }
                 }
-                return;
             }
         }
     }

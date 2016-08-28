@@ -6,6 +6,7 @@ public class GoalController : MonoBehaviour
 {
     public GameObject collideObj;
     private Animator anim;
+    public GameObject parent;
 
     void Start()
     {
@@ -20,6 +21,9 @@ public class GoalController : MonoBehaviour
             if (collisionPoint.otherCollider == collideObj.GetComponent<Collider>())
             {
                 anim.SetTrigger("Collide");
+
+                LoadScene ld = parent.GetComponentInChildren<LoadScene>();
+                anim.SetInteger("NextScene", ld.GetSceneNumber());
             }
         }
     }

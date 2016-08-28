@@ -547,7 +547,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e2ba4cdcce7c5d547930f969aebfedbf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Scene1: Main
+  Scene: 3
 --- !u!114 &683793188
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -560,6 +560,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collideObj: {fileID: 1826426708}
+  parent: {fileID: 683793185}
 --- !u!4 &683793190 stripped
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: 65c36907c4207de4b99ac3c0732948e7, type: 3}
@@ -788,6 +789,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collideObj: {fileID: 1826426708}
+  parent: {fileID: 1202835946}
 --- !u!114 &1202835948
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -799,7 +801,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e2ba4cdcce7c5d547930f969aebfedbf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Scene1: Level1
+  Scene: 4
 --- !u!4 &1202835949 stripped
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: 65c36907c4207de4b99ac3c0732948e7, type: 3}

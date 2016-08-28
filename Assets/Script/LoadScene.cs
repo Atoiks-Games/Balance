@@ -6,33 +6,15 @@ using System.Collections;
 public class LoadScene : MonoBehaviour
 
 {
-    public string Scene1;
-    private Scene currentScene;
-    public bool onCollisionEnter {
-        get
-        {
-            return onCollisionEnter;
-        }
-        private set
-        {
-            onCollisionEnter = value;
-        }
-    }
+    public int Scene;
 
-    void Start()
+    public int GetSceneNumber()
     {
-        bool onCollisionEnter = true;
+        return Scene;
     }
-
-    void Update()
-    {
-        
-        
-    }
-
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     public void Apply()
     {
-              SceneManager.LoadScene(Scene1);
+        SceneManager.LoadScene(Scene);
     }
 }
