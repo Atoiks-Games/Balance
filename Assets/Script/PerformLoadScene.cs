@@ -15,7 +15,9 @@ public class PerformLoadScene : StateMachineBehaviour
             LoadScene ld = gameObj.GetComponentInChildren<LoadScene>();
             if (ld != null)
             {
-                ld.Apply();
+                if (ld.onCollisionEnter == true) {
+                    ld.Apply();
+                }
                 return;
             }
         }
