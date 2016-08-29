@@ -1,32 +1,4 @@
-<!DOCTYPE html>
-
-<html lang="en">
-<head>
-  <meta charset="utf-8"/>
-  <title>Contributor Covenant 1.4.0</title>
-  <style>
-    body {
-      font-family: monospace;
-      padding: 4em;
-    }
-    a {
-      color: #990000;
-    }
-  </style>
-  <link rel="alternate" hreflang="de" href="version/1/3/0/de/" />
-  <link rel="alternate" hreflang="es" href="version/1/4/es/" />
-  <link rel="alternate" hreflang="fr" href="version/1/3/0/fr/" />
-  <link rel="alternate" hreflang="hu" href="version/1/3/0/hu/" />
-  <link rel="alternate" hreflang="it" href="version/1/3/0/it/" />
-  <link rel="alternate" hreflang="ja" href="version/1/3/0/ja/" />
-  <link rel="alternate" hreflang="pl" href="version/1/4/pl/" />
-  <link rel="alternate" hreflang="pt" href="version/1/3/0/pt/" />
-  <link rel="alternate" hreflang="pt" href="version/1/3/0/pt_br/" />
-  <link rel="alternate" hreflang="ru" href="version/1/3/0/ru/" />
-  <link rel="alternate" hreflang="sl" href="version/1/4/sl/" />
-  <link rel="alternate" hreflang="uk" href="version/1/4/uk/" />
-</head>
-
+<html>
 <body>
 
 <h1>Contributor Covenant Code of Conduct</h1>

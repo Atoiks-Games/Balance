@@ -1,6 +1,6 @@
 # Contributing to Atoiks-Games/Balance
 
-Our code of conduct can be found [here](CODE_OF_CONDUCT.html).
+Our code of conduct can be found [here](CODE_OF_CONDUCT.md).
 
 If you find a bug that has not been opened in Github issues, please open one.
 The issue must specify the **Expected behaviour**, the **Actual behaviour**,
