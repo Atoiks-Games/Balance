@@ -547,7 +547,7 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: 'Maze
 
-    Tip: Use Q to return to the level hub at any time.'
+    Tip: Use E to return to the level hub at any time.'
 --- !u!222 &1960911329
 CanvasRenderer:
   m_ObjectHideFlags: 0

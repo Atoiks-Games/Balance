@@ -30,7 +30,7 @@ public class CameraController : MonoBehaviour
                 ResetPos();
             }
         }
-        if (Input.GetKeyDown("q"))
+        if (Input.GetKeyDown("e"))
         {
             SceneManager.LoadScene("LevelHub");
         }
