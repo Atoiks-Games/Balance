@@ -369,7 +369,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e2ba4cdcce7c5d547930f969aebfedbf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextScene: Level12
+  Scene: 2
 --- !u!114 &939281668
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -382,6 +382,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collideObj: {fileID: 1835205780}
+  parent: {fileID: 939281665}
 --- !u!1 &941801589
 GameObject:
   m_ObjectHideFlags: 0

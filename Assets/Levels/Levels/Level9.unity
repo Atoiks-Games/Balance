@@ -1125,6 +1125,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collideObj: {fileID: 542913943}
+  parent: {fileID: 1558538075}
 --- !u!114 &1558538077
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1136,4 +1137,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e2ba4cdcce7c5d547930f969aebfedbf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextScene: Level10
+  Scene: 2

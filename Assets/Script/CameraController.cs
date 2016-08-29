@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 using System.Collections;
 
 public class CameraController : MonoBehaviour
@@ -28,6 +29,10 @@ public class CameraController : MonoBehaviour
             {
                 ResetPos();
             }
+        }
+        if (Input.GetKeyDown("q"))
+        {
+            SceneManager.LoadScene("LevelHub");
         }
     }
 

@@ -189,9 +189,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29c9319322f7a8e409b9861a8712fe6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bindingObject: {fileID: 0}
+  sphere: {fileID: 0}
+  board: {fileID: 0}
   offset: {x: 0, y: 0, z: 0}
   resetObjects: []
+  restartHeight: 10
 --- !u!1 &1150594882
 GameObject:
   m_ObjectHideFlags: 0
@@ -253,13 +255,15 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 5
     m_MaxSize: 70
-    m_Alignment: 4
+    m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
+    m_HorizontalOverflow: 1
+    m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: You Win!!!
+  m_Text: 'You Win!!!
+
+    Built By Atoiks Games'
 --- !u!222 &1150594885
 CanvasRenderer:
   m_ObjectHideFlags: 0

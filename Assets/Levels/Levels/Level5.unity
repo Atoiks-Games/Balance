@@ -106,6 +106,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collideObj: {fileID: 1054438418}
+  parent: {fileID: 1350632264}
 --- !u!1 &70737012 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100018, guid: 777ec3173f4f2be44abe0cac78710c4a, type: 3}
@@ -642,7 +643,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e2ba4cdcce7c5d547930f969aebfedbf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextScene: Levels/Level6
+  Scene: 2
 --- !u!1001 &1765863127
 Prefab:
   m_ObjectHideFlags: 0
