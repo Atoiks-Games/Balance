@@ -17,7 +17,7 @@ public class SphereController : MonoBehaviour
         float moveHoriz = Input.GetAxis("Sphere Horizontal");
         float moveVert = Input.GetAxis("Sphere Vertical");
 
-        Vector3 vec3 = new Vector3(moveHoriz, 0, moveVert);
+        Vector3 vec3 = new Vector3(moveHoriz, 1f, moveVert);
 
         rbody.AddForce(vec3 * speed);
     }

@@ -16,6 +16,6 @@ public class BoardController : MonoBehaviour
         float moveVert = Input.GetAxis("Platform Vertical");
         Vector3 vec3 = new Vector3(0, 0, moveVert);
 
-        this.transform.Rotate(vec3);
+        this.transform.Rotate(vec3 * speed);
     }
 }
