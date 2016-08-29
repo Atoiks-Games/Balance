@@ -5,4 +5,5 @@ This is a Unity 3D game where in each level you control a ball and guide it to t
 You can control the direction the ball rolls in as well as rotate the board the ball is rolling on.
 
 Made By Atoiks Games
-Vers. 0.18.0
+
+Vers. 1.0.0
