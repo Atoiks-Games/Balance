@@ -226,7 +226,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sphere: {fileID: 1751319436}
   board: {fileID: 891561609}
-  offset: {x: 0, y: 5, z: -5}
+  offset: {x: 5, y: 5, z: -5}
   resetObjects:
   - {fileID: 891561611}
   - {fileID: 1751319437}

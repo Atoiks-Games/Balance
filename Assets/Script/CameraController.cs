@@ -11,6 +11,7 @@ public class CameraController : MonoBehaviour
     public float restartHeight = 10; // Note: Only values greater than 0 are being tested
     private bool hasBeenDone = false;
 
+
     void Start()
     {
 
@@ -34,9 +35,11 @@ public class CameraController : MonoBehaviour
         {
             SceneManager.LoadScene("LevelHub");
         }
+        
     }
 
-    void ResetPos()
+
+        void ResetPos()
     {
         foreach (var item in resetObjects)
             if (item != null)

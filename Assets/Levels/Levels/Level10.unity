@@ -123,7 +123,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sphere: {fileID: 1334577136}
   board: {fileID: 100010, guid: 232cca3b7f99fd64383d4bec42c04172, type: 3}
-  offset: {x: 0, y: 5, z: -5}
+  offset: {x: 0, y: 10, z: -5}
   resetObjects:
   - {fileID: 425077392}
   - {fileID: 1334577137}
