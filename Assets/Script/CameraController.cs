@@ -35,17 +35,19 @@ public class CameraController : MonoBehaviour
         {
             SceneManager.LoadScene("LevelHub");
         }
-        
+
     }
 
 
-        void ResetPos()
+    void ResetPos()
     {
         foreach (var item in resetObjects)
             if (item != null)
+            {
                 item.ApplyReset();
                 transform.Translate(Vector3.forward);
                 transform.Translate(Vector3.back);
+            }
     }
 
     void FixedUpdate()
